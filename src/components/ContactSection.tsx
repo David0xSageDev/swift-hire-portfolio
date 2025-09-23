@@ -45,19 +45,19 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'john@example.com',
-      href: 'mailto:john@example.com'
+      value: 'karugadavid23@gmail.com',
+      href: 'mailto:karugadavid23@gmail.com'
     },
     {
       icon: Github,
       label: 'GitHub',
-      value: '@johndoe',
-      href: 'https://github.com'
+      value: '@Davidkaruga',
+      href: 'https://github.com/Davidflic'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      value: 'John Doe',
+      value: 'Davidkaruga',
       href: 'https://linkedin.com'
     },
     {
