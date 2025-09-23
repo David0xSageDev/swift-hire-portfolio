@@ -47,7 +47,7 @@ const HeroSection = () => {
         <div className="animate-fade-in">
           {/* Profile Picture */}
           <div className="mb-8 animate-scale-in">
-            <div className="relative w-32 h-32 mx-auto mb-6">
+            <div className="relative w-16 h-16 mx-auto mb-6">
               <img 
                 src={profilePicture}
                 alt="David Karuga - Fullstack Developer"
