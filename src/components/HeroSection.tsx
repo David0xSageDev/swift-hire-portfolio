@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import profilePicture from '@/assets/profile-picture.jpg';
 
 const HeroSection = () => {
   const scrollToProjects = () => {
@@ -44,26 +45,41 @@ const HeroSection = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="animate-fade-in">
-          {/* Status badge */}
-          <div className="inline-flex items-center px-4 py-2 rounded-full glass-card border border-primary/20 mb-8">
-            <div className="w-2 h-2 bg-success rounded-full mr-3 animate-pulse"></div>
-            <span className="text-sm text-muted-foreground">Available for hire</span>
+          {/* Profile Picture */}
+          <div className="mb-8 animate-scale-in">
+            <div className="relative w-32 h-32 mx-auto mb-6">
+              <img 
+                src={profilePicture}
+                alt="David Karuga - Fullstack Developer"
+                className="w-full h-full object-cover rounded-full border-4 border-primary/20 shadow-2xl"
+              />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 to-transparent"></div>
+            </div>
+          </div>
+
+          {/* Name */}
+          <div className="mb-6 animate-slide-in-up" style={{ animationDelay: '0.2s' }}>
+            <h1 className="text-3xl md:text-4xl font-bold text-primary mb-2">David Karuga</h1>
+            <div className="inline-flex items-center px-4 py-2 rounded-full glass-card border border-primary/20">
+              <div className="w-2 h-2 bg-success rounded-full mr-3 animate-pulse"></div>
+              <span className="text-sm text-muted-foreground">Available for hire</span>
+            </div>
           </div>
 
           {/* Main headline */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
+          <h2 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <span className="block text-foreground">Fullstack Developer</span>
             <span className="block gradient-text">Who Ships & Scales</span>
-          </h1>
+          </h2>
 
           {/* Animated subtitle */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-slide-in-up" style={{ animationDelay: '0.3s' }}>
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-slide-in-up" style={{ animationDelay: '0.6s' }}>
             I craft modern web experiences with clean code, scalable architecture, 
             and a passion for turning complex problems into elegant solutions.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-slide-in-up" style={{ animationDelay: '0.6s' }}>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-slide-in-up" style={{ animationDelay: '0.8s' }}>
             <Button 
               onClick={scrollToProjects}
               size="lg"
@@ -83,7 +99,7 @@ const HeroSection = () => {
           </div>
 
           {/* Social links */}
-          <div className="flex justify-center gap-6 animate-slide-in-up" style={{ animationDelay: '0.9s' }}>
+          <div className="flex justify-center gap-6 animate-slide-in-up" style={{ animationDelay: '1.1s' }}>
             <a 
               href="https://github.com" 
               target="_blank" 
