@@ -10,23 +10,23 @@ const SkillsSection = () => {
     frontend: {
       name: 'Frontend',
       skills: [
-        { name: 'React', level: 95, experience: '4+ years', color: 'text-blue-400' },
-        { name: 'TypeScript', level: 90, experience: '3+ years', color: 'text-blue-600' },
+        { name: 'React', level: 95, experience: '3+ years', color: 'text-blue-400' },
+        { name: 'TypeScript', level: 90, experience: '2+ years', color: 'text-blue-600' },
         { name: 'Next.js', level: 85, experience: '2+ years', color: 'text-gray-300' },
         { name: 'Vue.js', level: 80, experience: '2+ years', color: 'text-green-500' },
-        { name: 'Tailwind CSS', level: 95, experience: '3+ years', color: 'text-teal-400' },
-        { name: 'SCSS/Sass', level: 85, experience: '4+ years', color: 'text-pink-400' }
+        { name: 'Tailwind CSS', level: 87, experience: '2+ years', color: 'text-teal-400' },
+        { name: 'SCSS/Sass', level: 85, experience: '1+ years', color: 'text-pink-400' }
       ]
     },
     backend: {
       name: 'Backend',
       skills: [
-        { name: 'Node.js', level: 90, experience: '4+ years', color: 'text-green-600' },
+        { name: 'Node.js', level: 90, experience: '2+ years', color: 'text-green-600' },
         { name: 'Python', level: 85, experience: '3+ years', color: 'text-yellow-500' },
-        { name: 'Express.js', level: 90, experience: '4+ years', color: 'text-gray-400' },
+        { name: 'Express.js', level: 90, experience: '1.5+ years', color: 'text-gray-400' },
         { name: 'FastAPI', level: 80, experience: '2+ years', color: 'text-emerald-500' },
-        { name: 'GraphQL', level: 75, experience: '2+ years', color: 'text-pink-600' },
-        { name: 'REST APIs', level: 95, experience: '5+ years', color: 'text-orange-500' }
+        { name: 'GraphQL', level: 65, experience: '2+ years', color: 'text-pink-600' },
+        { name: 'REST APIs', level: 75, experience: '2+ years', color: 'text-orange-500' }
       ]
     },
     devops: {

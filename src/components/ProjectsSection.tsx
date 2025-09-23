@@ -179,7 +179,7 @@ const ProjectsSection = () => {
               className="bg-primary hover:bg-primary-glow text-primary-foreground glow-effect"
             >
               <a 
-                href="https://github.com" 
+                href="https://github.com/Davidflic" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"

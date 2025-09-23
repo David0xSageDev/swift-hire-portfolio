@@ -4,23 +4,24 @@ import { Calendar, MapPin, Coffee } from 'lucide-react';
 const AboutSection = () => {
   const experiences = [
     {
-      company: 'TechCorp Inc.',
-      role: 'Senior Full Stack Developer',
-      period: '2022 - Present',
-      location: 'San Francisco, CA'
+      company: 'Canonical Ltd.',
+      role: 'Full Stack Developer',
+      period: '2024 - 2025(May)',
+      location: 'Remote'
     },
     {
-      company: 'StartupXYZ',
-      role: 'Full Stack Developer',
-      period: '2020 - 2022',
-      location: 'Austin, TX'
+      company: 'iHub Nairobi',
+      role: 'Junior Full Stack Developer',
+      period: '2023 - 2024',
+      location: 'Nairobi, Kenya'
     },
     {
       company: 'DevAgency',
       role: 'Frontend Developer',
-      period: '2018 - 2020',
+      period: '2023',
       location: 'Remote'
     }
+    
   ];
 
   return (
@@ -38,8 +39,8 @@ const AboutSection = () => {
               {/* Elevator pitch */}
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  I'm a fullstack developer with 5+ years of experience building scalable web applications 
-                  that serve millions of users. I specialize in React, Node.js, and cloud architecture.
+                  I'm a fullstack developer with 3+ years of experience building scalable web applications 
+                  that serve millions of users. I specialize in React, Node.js, and cloud architecture"ongoing certification".
                 </p>
                 <p>
                   My passion lies in creating seamless user experiences backed by robust, performant systems. 
@@ -55,7 +56,7 @@ const AboutSection = () => {
               <div className="flex items-center gap-2 mt-6 p-4 glass-card rounded-lg border border-card-border">
                 <Coffee className="w-5 h-5 text-primary" />
                 <span className="text-muted-foreground">
-                  When I'm not coding → Rock climbing and exploring new coffee shops ☕
+                  When I'm not coding → Rock climbing, Avide reader of Novels and exploring new coffee shops ☕
                 </span>
               </div>
             </div>
