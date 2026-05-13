@@ -7,7 +7,7 @@ const CertificationSection = () => {
     {
       title: "AWS Certified Solutions Architect",
       issuer: "Amazon Web Services",
-      date: "2023",
+      date: "2024",
       level: "Associate",
       credentialId: "AWS-SA-2023-001",
       verifyLink: "https://aws.amazon.com/verification",
@@ -27,7 +27,7 @@ const CertificationSection = () => {
     {
       title: "Certified Kubernetes Administrator",
       issuer: "Cloud Native Computing Foundation",
-      date: "2022",
+      date: "2024",
       level: "Professional",
       credentialId: "CKA-2022-456",
       verifyLink: "https://www.cncf.io/certification/cka/",
@@ -37,7 +37,7 @@ const CertificationSection = () => {
     {
       title: "MongoDB Certified Developer",
       issuer: "MongoDB University",
-      date: "2022",
+      date: "2025",
       level: "Associate",
       credentialId: "MDB-DEV-2022-123",
       verifyLink: "https://university.mongodb.com/certification",
